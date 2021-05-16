@@ -9,10 +9,10 @@
 #include <WiFi.h>
 #include "PubSubClient.h"
 
-const char* ssid = "Bruce"; // Your SSID (Name of your WiFi)
-const char* password = "dream1234"; //Your Wifi password
+const char* ssid = "*****"; // Your SSID (Name of your WiFi)
+const char* password = "*******"; //Your Wifi password
 
-char* topic = "channels/888134/publish/UGEJVPJORRDU1JA9"; //channels/<channelID>/publish/API
+char* topic = "channels/888134/publish/****************"; //channels/<channelID>/publish/API
 char* server = "mqtt.thingspeak.com";
 
 //Use WiFiClient class to create TCP connections
@@ -21,6 +21,7 @@ PubSubClient client(server, 1883, wifiClient);
 
 void callback(char* topic, byte* payload, unsigned int length) {
 	// handle message arrived
+	// Not used.
 }
 
 Servo horizontal; //initialize horizontal servo object
