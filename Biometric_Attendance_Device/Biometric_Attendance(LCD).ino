@@ -1,4 +1,4 @@
-/*********************************************************************************************  
+/*******************************************************************************************************
 *   This is the first portion of the source code for a BIOMETRIC ATTENDANCE DEVICE
 *   developed by the group 2 members of the EEE-401 Project Design course,
 *   at the department of Electronic & Electrical Engineering, Obafemi Awolowo University.
@@ -12,7 +12,7 @@
 *   
 *   This src is meant to be run on the primary Atmega328 driving the touchscreen.
 *
-*********************************************************************************************   
+********************************************************************************************************
 *       Created: 26/06/2018 08:38:34
 */
 
