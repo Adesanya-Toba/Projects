@@ -1,0 +1,8 @@
+#ignore these files and folders
+*vs
+Release/
+Debug/
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.xml
