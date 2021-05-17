@@ -201,7 +201,8 @@ void loop()
 			delay(150);
 		}
 	}
-	/*Serial.println();
+#if DEBUG_ENABLED
+	Serial.println();
 	Serial.print("Bottom-Right: ");
 	Serial.println(bottomRight);
 	Serial.print("Top-Right: ");
@@ -226,10 +227,10 @@ void loop()
 	Serial.println(avl);
 	Serial.print("average right: ");
 	Serial.println(avr);
-	*/
+	
 
-	//Serial.println();
-
+	Serial.println();
+#endif /* DEBUG_ENABLED */
 
 
 	delay(50);
